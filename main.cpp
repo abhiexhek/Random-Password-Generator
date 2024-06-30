@@ -13,7 +13,7 @@ int selectArray()
 }
 
 //getKey is another utility function that is used to randomly generate
-//an integer in the range of 0 to max - 1 (both inclusive)
+//an integer in the range of 0 to max - 1  (both inclusive)
 int getKey(int max)
 {
     int key = rand() % max;
@@ -25,8 +25,8 @@ void generate_password(int length)
     //Initializing result string password as NULL.
     string password = "";
 
-    //string whose characters will be used to build a password
-    string ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    ///string whose characters will be used to build a password
+    string ALPHABET = "ABCDFGHIJKLMNOPQRSTUVWXYZ";
     string alphabet = "abcdefghijklmnopqrstuvwxyz";
     string s_symbol = "!@#$%&";
     string number = "0123456789";
